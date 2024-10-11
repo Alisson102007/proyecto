@@ -1,0 +1,336 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+    padding: 0%;
+}
+a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+.nombre{
+    font-size: 22px;
+    margin-top: -1%;
+}
+header {
+    display:flex ;
+    background: linear-gradient(#004b35, #05a299, #05b27e);
+    padding: 21px;
+  }
+.logo{
+    display: flex;
+    align-items: center;
+  }
+.logo img{
+    height: 130px;
+    margin-left: -2rem;
+    margin-top: -1rem;
+}
+.AB {
+    position: absolute;
+    top: 17.8%;
+    left: 17%;
+    font-size: 22px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 6px;
+}
+nav a:hover{
+    color: white;
+}
+@media (max-width:600px){
+    header{
+        flex-direction: column;
+    }
+nan{
+    padding: 10px 0px;
+}
+}
+.cajabuscar {
+    float: none;
+    width: 70%;
+    max-width: 400px;
+    margin-bottom: 10px;
+    margin-top: 1%;
+    margin-left: 16.5%;
+    margin-right: auto;
+    display: inline-block;
+    text-align: left;
+      width: 150%;
+    height: 80%;
+}
+#buscarform {
+    padding: 0;
+    float: right;
+    clear: both;
+    width: 150%;
+    height: 80%;
+    left: -1rem;
+    right: rem;
+    position: relative;
+}
+#buscarform fieldset { float: left }
+#buscarform .search {
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFF;
+    background: #61996b;
+    position: absolute;
+    right:4px ;
+    left: 97%;
+    top: 7px;
+    
+    padding: 9px;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+}
+#buscarform fieldset { width: 100% }
+#s {
+    width: 100%;
+    background-color: #fff;
+    float: left;
+    padding: 8px 0;
+    text-indent: 10px;
+    color: #555555;
+    border: 1px solid #fff; 
+    box-sizing: border-box;
+    height: 42px;
+}
+.butto{
+    padding: 8px 0;
+    float: left;
+    border: solid 3px black;
+    width: 30px;
+    height: 42px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 15px;
+    color: #a4a4a4;
+    transition: all 0.25s linear;
+    background: transparent;
+    z-index: 10;
+    position: absolute;
+    border: 0;
+}.iconos{
+    position: relative;
+    width: 3.5rem;
+    height: 3.5rem;
+    align-items: center;
+    display: flex;
+}
+.Bnoti {
+    position: absolute;
+    display: flex;
+    top: 4%;
+    left: 76%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.pregunta{
+    position: absolute;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.Bpregun {
+    position: absolute;
+    display: flex;
+    top: 4%;
+    left: 80%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.inicio{
+    position: absolute;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.Bini {
+    position: absolute;
+    display: flex;
+    top: 4%;
+    left: 84%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.carrito{
+    position: absolute;
+    width:3.5rem;
+    height: 3.5rem;
+    align-items: center;
+}
+.Bcar {
+    position: absolute;
+    display: flex;
+    top: 4%;
+    left: 88%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.casa{
+    position:absolute;
+    width: 4rem;
+    height: 3rem;
+    align-items: center;
+    margin-left: 13%;
+    margin-top: -2.7%;
+}
+.tablas {
+    border: 3px;
+    color: #555555;
+    top: 25%;
+    left: 5%;
+}
+.img-search {
+    position: absolute;
+    right:0px;
+    left: 6px;
+    top: 5px;
+    padding: 0px;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+}
+#login {
+    max-width: 410px;
+    min-width: 410px;
+    max-height: 70px;
+    min-height: 70px;
+    border:4px black;
+    background-color: #2924247a;
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);  
+    margin-left: 50%;
+    margin-top: 13%;
+
+}
+#loginmi {
+    max-width: 400px;
+    min-width: 400px;
+    max-height: 50px;
+    min-height: 50px;
+    border:4px black;
+    background-color: #2924247a;
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);    
+    margin-left: 50%;
+    margin-top: 2%;
+    position: absolute;
+    text-align: center;
+}
+.basuras{
+    width: 35px;
+    height: 35px;
+    margin-left: 77%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+.basurero{
+    display: flex;
+}
+.ubica{
+    width: 35px;
+    height: 35px;
+}
+.añade{
+    font-size: 30px;
+    left: 7%;
+    margin: 5%;
+}
+.box {
+    border: 5px solid rgb(21, 19, 22);
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    margin: 20px;
+    width: 132¿30px;
+    height: 35px;
+    left: 20px;
+  }
+  .cuadro {
+    background-color: lightgray;
+    width: 310px;
+    gap: 50%;
+    height:320px ;
+    left: 19rem;
+    position: absolute;
+    display: block;
+    margin-top: -2.9rem;
+  }
+  .perfil {
+    width: 20%;
+    height: auto;
+  }
+  .Envio {
+    margin-left: 76%;
+    display: flex;
+    position: absolute;
+    top: 30%;
+    font-size: 29px;
+  }
+.mover{
+    display: flex;
+    position: absolute;
+    left: 23%;
+    top: 26%;
+    font-size: 20px;
+    color: black;
+}
+.remove{
+    width: 90px;
+    height: 90px;
+    margin-top: -20%;
+    left: -5rem;
+}
+.mover2{
+    display: flex;
+    position: absolute;
+    left: 23%;
+    top: 46%;
+    font-size: 20px;
+    color: black;
+}
+.mover3{
+    display: flex;
+    position: absolute;
+    left: 23%;
+    top: 64%;
+    font-size: 20px;
+    color: black;
+}
+.mover5{
+    display: flex;
+    position: absolute;
+    left: 23%;
+    top: 81%;
+    font-size: 20px;
+    color: black;
+}
+.pedidos{
+    width: 15%;
+    height: auto;
+}
+.direccion{
+    width: 15%;
+    height: auto;
+}
+.cerrarsesion{
+    width: 15%;
+    height: auto;
+}
+.bordes{
+    border-left: solid black;
+    border-right: solid black;
+    border-top: solid black;
+}
+.bordes1{
+    border-left: solid black;
+    border-right: solid black;
+    border-top: solid black;
+    border-bottom: solid black;
+}

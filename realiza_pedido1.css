@@ -1,0 +1,368 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+header {
+    display:flex ;
+    min-height: 10rem;
+    background: linear-gradient(#004b35, #05a299, #05b27e);
+  }
+  a{
+    text-decoration: none;
+    color: rgb(6, 6, 6);
+  }
+h2{
+    font-size: 21px;
+}
+  .logo{
+    display: flex;
+    align-items: center;
+  }
+.logo img{
+    width:30%;
+    height: 80%;
+    margin-left: -0.7rem;
+}
+.nombreempresa{
+    margin-right: 4%;
+    font-size: 1.5rem;
+}
+.AB {
+    position: absolute;
+    display: flex;
+    top: 20%;
+    left: 23%;
+    font-size: 22px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 6px;
+}
+nav a:hover{
+    color: rgb(252, 251, 251);
+}
+@media (max-width:600px){
+    header{
+        flex-direction: column;
+    }
+nan{
+    padding: 10px 0px;
+}
+}
+.cajabuscar {
+    float: none;
+    width: 70%;
+    max-width: 400px;
+    margin-bottom: 10px;
+    margin-top: 2.5%;
+    margin-left: 14%;
+    margin-right: auto;
+    display: inline-block;
+    text-align: left;
+}
+#buscarform {
+    padding: 0;
+    float: right;
+    clear: both;
+    width: 168%;
+    height: 80%;
+    left: -8rem;
+    right: rem;
+    position: relative;
+}
+#buscarform fieldset { float: left }
+#buscarform .search {
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFF;
+    background: #61996b;
+    position: absolute;
+    right:4px ;
+    left: 97%;
+    top: 7px;
+    padding: 9px;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+}
+#buscarform fieldset { width: 100% }
+#s {
+    width: 100%;
+    background-color: #fff;
+    float: left;
+    padding: 8px 0;
+    text-indent: 10px;
+    color: #555555;
+    border: 1px solid #fff; 
+    box-sizing: border-box;
+    height: 42px;
+}
+.button{
+    padding: 8px 0;
+    float: left;
+    border: solid 3px black;
+    width: 30px;
+    height: 42px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 15px;
+    color: #a4a4a4;
+    transition: all 0.25s linear;
+    background: transparent;
+    z-index: 10;
+    position: absolute;
+    border: 0;
+}.iconos{
+    position: relative;
+    width: 3.5rem;
+    height: 3.5rem;
+    align-items: center;
+    display: flex;
+}
+.Bnoti {
+    position: absolute;
+    display: flex;
+    top: 5%;
+    left: 76%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.pregunta{
+    position: absolute;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.Bpregun {
+    position: absolute;
+    display: flex;
+    top: 5%;
+    left: 80%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.inicio{
+    position: absolute;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.Bini {
+    position: absolute;
+    display: flex;
+    top: 5%;
+    left: 84%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.carritos{
+    position: absolute;
+    width:3.5rem;
+    height: 3.5rem;
+    align-items: center;
+}
+.Bcar {
+    position: absolute;
+    display: flex;
+    top: 5%;
+    left: 88.4%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.casa{
+    position:absolute;
+    width: 4rem;
+    height: 3rem;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 20%;
+    margin-top: -2.8%;
+}
+.tabla {
+    border: 3px;
+    color: #555555;
+}
+.img-search {
+    position: absolute;
+    right:0px;
+    left: 6px;
+    top: 5px;
+    padding: 0px;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+
+}
+.cuadrito {
+    justify-items: center;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    height: 7rem;
+    width: 90rem;
+    background-color: #d9d9d9;
+    border-color: black;
+    font-size: 17px;
+    position: absolute;
+}
+.ubicacion{
+    width: 35px;
+    height: 35px;
+    margin-top: 0.3%;
+    margin-left: 0.5%;
+}
+.dire{
+    margin-left: 3rem;
+    margin-top: -2.8%;
+}
+.cra{
+margin-top: -3.5%;
+margin-left: 0.5%;
+}
+.tel{
+margin-top: -1%;
+margin-left: 0.5%;
+}
+.deter {
+    color: #faf8f800;
+    background-color: #eaf1ec00;
+    text-decoration: rgb(12, 12, 12);
+    border: solid #0e0d0d;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 55rem;
+    margin-top: -9rem;
+}
+.cam{
+    margin-left: 69rem;
+    margin-top: -3rem;
+
+}
+.cuadro {
+    justify-items: center;
+    margin-top: 1.3rem;
+    margin-left: -0.5rem;
+    height: 20rem;
+    width: 90rem;
+    background-color: #d9d9d9;
+    border-color: black;
+    font-size: 17px;
+    position: absolute;
+}
+.cuadros {
+    justify-items: center;
+    margin-top: 8rem;
+    margin-left: -0.5rem;
+    height: 14rem;
+    width: 90rem;
+    background-color: #d9d9d9;
+    border-color: black;
+    font-size: 17px;
+    position: absolute;
+}
+.precio{
+margin-left: 50rem;
+margin-top: -3rem;
+}
+.canti{
+    margin-left:66rem;
+    margin-top: -1.5rem;
+}
+.sub{
+    margin-left: 79rem;
+    margin-top: -1.5rem;
+}
+.xxx{
+    margin-top: -4rem;
+    margin-left: 7rem;
+}
+.mouse{
+    width: 65px;
+    height: 65xp;
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+.mouse1{
+    width: 65px;
+    height: 65xp;
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+.mouse2{
+        width: 65px;
+        height: 65xp;
+        margin-top: 3rem;
+        margin-left: 1rem;
+    }
+.cero1{
+margin-left: 50rem;
+margin-top: -1.5rem;
+}
+.cero2{
+margin-left: 68rem;
+margin-top: -1.5rem;
+}
+.cero3{
+margin-left: 80.5rem;
+margin-top: -1.5rem;
+}
+.paypal{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    width: 8%;
+    height: 12%;
+ display: block;
+    font-size: 16px;
+    
+}
+.davi{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    width: 8%;
+    height: 12%;
+    font-size: 16px;
+    display: block;
+}
+.nequi{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    width: 8%;
+    height: 12%;
+    font-size: 16px;
+    display: block;
+}
+.ps{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    width: 8%;
+    height: 12%;
+    font-size: 16px;
+}
+.meto{
+    margin-left: 2rem;
+}
+.total{
+    margin-left: 25rem;
+    margin-top: -12rem;
+}
+.ceros{
+    margin-left: 50rem;
+    margin-top: -10rem;
+}
+.btn_actualizar{
+    margin-top: -7rem;
+    margin-left: 74rem;
+    width: 15%;
+    height: 15%;
+    font-size: 18px;
+    display: block;
+    border-radius: 15px;
+}
+.btn_guardar{
+    margin-top: 2rem;
+    margin-left: 74rem;
+    width: 15%;
+    height: 15%;
+    font-size: 18px;
+    border-radius: 15px;
+}

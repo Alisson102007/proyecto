@@ -1,0 +1,221 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+  }
+  body {
+   height: 50rem;
+   background: linear-gradient(#004b35, #05a299, #05b27e);
+   font-family: 'Times New Roman', Times, serif;
+}
+  .container form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 30;
+    margin-top: 25px;
+    text-align: left;
+    max-width: 480px ;
+    width: 480% ;
+    padding: 100px 30px ;
+    border-radius: 3px;
+    padding:5rem;
+    margin-top: 1rem;
+    border-color: black;
+  }
+  form .form-group{
+    width: calc(90%/2- 30px);
+    display: block;
+    font-weight: 50;
+    padding: 12px;
+    border-color: black;
+  }
+  .form-group input{
+    height: 20px;
+    width: 150px;
+    outline: none;
+    border-radius: 1px;
+    border: 1px solid #5f51ad00;
+    padding-left: 5px;
+    border-bottom-width: 2px;
+    transition: all 0.100s ease;
+    background-color: black;
+  }
+  p{
+    text-decoration: none;
+  }
+  img{
+    width: 40px;
+  }
+  .container .title{
+    font-size: 25px;
+    font-weight: 500;
+    justify-content: center;
+  }
+   .button{
+    display: flexbox;
+    position: absolute;
+    width: 30rem;
+    height: 40px;
+    top: 4rem;
+    align-items: center;
+    text-align: center;
+  }
+  .button input{
+    width: 50%;
+    height: 80%;
+    outline: none;
+    cursor: pointer;
+    background: rgb(92, 90, 90);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+  }
+  tr{
+    font-size: 1rem;
+    height: 1rem;
+    background-color: rgb(255, 255, 255, 0 );
+  }
+  td{
+    position: relative;
+    padding: 2px;
+    font-weight: 800;
+    height: 100%;
+  }
+  table{
+    position: absolute;
+    left: 52%;
+    margin-top: -19%;
+  }
+  .goo{
+    position: absolute;
+    display: flex;
+    left: 8rem;
+    top: 5rem;
+
+  }
+  .cuadro{
+    background-color: rgba(233, 231, 231, 0.507);
+    width: 32rem;
+    height: 37rem;
+    position: absolute;
+    display: flex;
+    margin-top: 37rem;
+    margin-left: -1rem;
+  } 
+  .izquierda {
+    position: absolute;
+    display: block;
+    top: 5rem;
+  }
+  .derecha{
+    position: relative;
+    top: 2.5rem;
+    left: 15rem;
+  }
+
+  .form-group img{
+    text-align: right;
+  }
+  *{margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .carrousel{
+    width: 20%;
+    position: absolute;
+    left: 20%;
+    top: 26%;
+    }
+    .conteCarrousel{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    }
+    .itemCarrousel{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    }
+    .itemCarrouselTarjeta{
+    width: 100%;
+    height: 100%;
+    }
+    .itemCarrouselArrows{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; 
+    }
+    .itemCarrouselArrows > i:hover {
+    cursor: pointer;
+    }
+    .conteCarrouselController{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    }
+    .conteCarrouselController > a{
+    text-decoration: none;
+    font-size: 2em;
+    color: grey;
+    }
+    .itemCarrouselArrows > a > i{
+    color: rgb(22, 21, 21);
+   
+    }
+    img{
+    
+        width: 100%;
+        height: 100%;
+    }
+    .imagen{
+      max-width: 40px;
+      min-width: 40px;
+      min-height: 40px;
+      max-height: 40px;
+      margin-top: -1rem;
+  }
+  .img-1{
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    display: flex;
+    top: 20.5rem;
+    left: 0.5rem;
+    }
+  .img-2 {
+    height: 10%;
+    width: 25%;
+    position: absolute;
+    display: flex;
+    left: 6rem;
+    top: 20.5rem;
+  }
+  .h1{
+    margin-top: 1rem;
+    font-size: 25px;
+    left: 3rem;
+    position: absolute;
+  }
+
+  .facebook{
+    text-decoration: none;
+    color: black;
+  }
+  .google{
+    color: black;
+    text-decoration: none;
+  }

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title> recupera contraseña </title>    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Videojuegos & Desarrollo">
+        <meta name="description" content="Ejemplo de formulario de acceso basado en HTML5 y CSS">
+        <meta name="keywords" content="login,formulariode acceso html">
+        <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="RECU-CONTRA2.css">
+    </head>
+    <body>
+        <div id="contenedor">
+            <div class="carrousel">
+                <div class="conteCarrousel">
+                    <div class="itemCarrousel" id="itemCarrousel-1">
+                        <div class="itemCarrouselTarjeta">
+                            <img src="/img/carrusel-1.png">
+                        </div>
+                        <div class="itemCarrouselArrows">
+                            <a href="#itemCarrousel-3">
+                                <i class="fas fa-chevron-left"></i>
+                            </a>
+                            <a href="#itemCarrousel-2">
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="itemCarrousel" id="itemCarrousel-2">
+                        <div class="itemCarrouselTarjeta">
+                            <img src="/img/carrusel-2.png">
+                        </div>
+                        <div class="itemCarrouselArrows">
+                            <a href="#itemCarrousel-1">
+                                <i class="fas fa-chevron-left"></i>
+                            </a>
+                            <a href="#itemCarrousel-3">
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="itemCarrousel" id="itemCarrousel-3">
+                        <div class="itemCarrouselTarjeta">
+                            <img src="/img/carrusel-3-removebg-preview.png">
+                        </div>
+                        <div class="itemCarrouselArrows">
+                            <a href="#itemCarrousel-2">
+                                <i class="fas fa-chevron-left"></i>
+                            </a>
+                            <a href="#itemCarrousel-1">
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="conteCarrouselController">
+                    <a href="#itemCarrousel-1">•</a>
+                    <a href="#itemCarrousel-2">•</a>
+                    <a href="#itemCarrousel-3">•</a>
+                </div>
+           
+           <p><strong>PLATAFORMA DE COMPRAS
+            EN LINEA
+           </strong> </p>
+        </div>
+        <div id="login">
+            <form id="loginform">
+                <p class="h2">¿Olvidastes tu contraseña? </p>
+                <p class="h3">Enviar codigo al correo electronico
+                <br>
+                al*********02@gmail.com</p>
+                <button type="submit" title="iniciar sesion" name="iniciar sesion"><a href="iniciosecion"><p class="enviar">ENVIAR CODIGO</p></button>
+                <button type="submit" title="iniciar sesion" name="iniciar sesion"><a href="iniciosecion"><p class="reenvia" >REENVIAR CODIGO</p></button>
+                <p class="ingresa">Ingresa el codigo de 6 digitos</p>
+                <input id="Codigo " type="text" name="codigo" placeholder="codigo"  required>
+                <label for="Codigo"></label>
+                <br>
+                <button type="submit"  class="liena"  method="post"> <p class="recupera"><a href="/confir-contra/index.html">RECUPERAR </a></p> </button>
+                <p>Ingresa con la contraseña</p>
+            </form>    
+        </div>
+    </body>
+</html>

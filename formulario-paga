@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="REGISTRO.css">
+    <title>Registrarse</title>
+</head>
+      
+            <table class="cuadro">
+                <tr>
+                    <td colspan="2"><p class="h1">Registrarse</p></td>
+                    <br>
+                    <br>
+                </tr>   
+                    <td colspan="1" class="izquierda">            
+                            <p><label for="nombres"> Nombres: </p> <p><input type="text" contenteditable="true" id="nombres"> </p>
+                            <p><label for="apellidos"> Apellidos: </p> <p> <input type="text" id="apellidos">  </p>
+                            <p><label for="n°identificacion"> N°identifiacion: </p> <p> <input type="text" id="n°identificacion">   </p>
+                            <p><label for="telefono 1"> Telefono 1: </p> <p> <input type="text" id="telefono 1">  </p>
+                    </td>
+                    <br>
+                            <td  colspan="1" class="derecha"> <br> 
+                                <div >
+                                    <p><label  for="n°whatsApp" > N°whatsApp: </p> <p> <input type="text" id="whatsApp" >   </p> 
+                                </div> 
+                                <div >
+                                    <p><label for="correo electronico"  > Correo electronico: </p> <p> <input type="text" id="correo electronico"> </p>
+                                </div> 
+                               
+                                <div >
+                                    <p><label for="direccion"  > Dirección: </p> <p> <input type="text" id="direccion"> </p>
+                                </div>
+                                <div class="tele">
+                                <p><label for="telefono 2"> Telefono 2: </p> <p> <input type="text" id="telefono 2"> </label>  </p> 
+                                </div>
+                            <tr>
+                                <td colspan="2">
+                                    <div class="button">
+                                    <a href="/login/index.html"> <input type="button"  value="REGISTRARSE"> </a>
+                                    </div>
+                                </td>
+                            </tr>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

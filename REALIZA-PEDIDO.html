@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carrito de compras lleno</title>
+    <link rel="stylesheet" href="realiza_pedido1.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
+    integrity="sha384-xOo1HFLEh07PJGoPKLv1IbcEPTNtaed2xpHsD9ESMhqIY" 
+    crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+        <img src="/img/001.png" alt="logo de la empresa">
+<h2 >COMPUELECTRICOS</h2>
+        </a>
+    <div class="cajabuscar">
+        <form method="get" id="buscarform">
+            <fieldset>
+                <input type="text" id="s" value="" placeholder="¿Qué buscas hoy?"  />
+                <input class="button" type="submit" value="" />
+                <i class="search"> <img class="img-search" src="/img/buscar.png" alt="Search">               
+                </i>
+            </fieldset>
+        </form>
+    </div>
+    <section>
+    <nav>
+        <div class="AB">
+                <td> <b>|</b> </td>
+                <td><a href="/apartados/mause1.html" >  Mouse </a> <b>|</b></td>
+                <td><a href="/apartados/teclado.html" >  Teclados </a><b>|</b></td>
+                <td><a href="/apartados/camara1.html" >  CamarasWeb  </a><b>|</b></td>
+                <td><a href="/apartados/camara1.html" >  CamarasWeb  </a><b>|</b></td>
+                <td><a href="/apartados/conectores.html" >  Cables y Contenedores  </a><b>|</b></td>
+                <td><a href="/apartados/morrales_fundas.html" >  Morrales/Maletines y Fundas  </a><b>|</b></td>
+                <td><a href="/apartados/mousepad.html" >  MousePads  </a><b>|</b></td>
+            </table>
+        </div>
+</nav>
+<button type="submit" class="Bnoti"><a href="/notificaciones/index.html"><img class="iconos" src="img/noti.png"></a></button>
+<button type="submit" class="Bpregun"><a href="/ayuda/index.html"><img class="pregunta" src="img/ayuda.png"></a></button>
+<button type="submit" class="Bini"><a href="/mi cuenta/index.html"><img class="inicio" src="img/miPerfil.png"></a></button>
+<button type="submit" class="Bcar"><a href="/carro-vacio/index.html"><img class="carritos" src="img/carrito.png"></a></button>
+</header>
+<a href="/ofertas/index.html"><img class="casa" src="img/Casa.png"> </a>
+<div class="cuadrito">
+    <img class="ubicacion" src="/img/ubicacion.png">
+    <div class="dire"> <p> <strong>Direccion de entrega</strong></p></div>
+    <button class="deter"  type="submit" > <a href="REGISTRO.html"><b>Predeterminado </b> </a></button>
+   <div class="cra"> <p> Cra 22 sur # 11234-4454 conjunto portal de los tunjs</p></div>
+   <div class="tel"> <p>alisson(+57413133232)</p>
+    <div class="cam"> <p><a href="/agregar-direc/index.html">cambiar</a></p>
+</div>
+<div class="cuadro">
+    <div class="pro"> <p> <strong> productos pedidos  </strong></p></div><div class="precio">precio unitario </div>
+    <div class="canti">cantidad</div><div class="sub">subtotal del articulo</div>
+<img class="mouse" src="/img/mouse copy.png">
+    <div class="xxx">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</div>
+<div class="cero1">$00000000000</div>
+<div class="cero2">0</div>
+<div class="cero3">$00000000000</div>
+<img class="mouse1" src="/img/mouse copy.png">
+<div class="xxx">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</div>
+<div class="cero1">$00000000000</div>
+<div class="cero2">0</div>
+<div class="cero3">$00000000000</div>
+<img class="mouse2" src="/img/mouse copy.png">
+<div class="xxx">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</div>
+<div class="cero1">$00000000000</div>
+<div class="cero2">0</div>
+<div class="cero3">$00000000000</div>
+</div>
+<br><br><br><br><br><br><br><br>
+<br>
+<br>
+<br>
+<div class="cuadros">
+    <div class="meto">metodos de pago </div>
+    <button class="paypal"  type="submit" > <a href="REG"><b>paypal </b> </a></button>
+    <button class="davi"  type="submit" > <a href="REGISTRO.html"><b>davi </b> </a></button>
+    <button class="nequi"  type="submit" > <a href="REGISTRO.html"><b>nequi </b> </a></button>
+    <button class="ps"  type="submit" > <a href="REGISTRO.html"><b>ps </b> </a></button>
+<div class="total">
+    <div class="">sub total de la mercancia </div>
+    <br>
+    <div class="">total de envio </div>
+    <br>
+    <div class="">descuento de envio </div>
+    <br>
+    <div class="">descuento </div>
+    <br>
+    <div class="">pago total </div>
+</div>
+<div class="ceros">
+    <div class="">$00000000000 </div>
+    <br>
+    <div class="">$00000000000 </div>
+    <br>
+    <div class="">$00000000000  </div>
+    <br>
+    <div class="">$00000000000  </div>
+    <br>
+    <div class="">$00000000000  </div>
+</div>
+<button class="btn_actualizar" id="btn_actualizar">realizar pedido</button>
+<button class=" btn_guardar" id="btn_guardar">cancelar  pedido</button>
+</div>
+<script src="alerta.js"></script>
+</body>
+</html>

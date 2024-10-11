@@ -1,0 +1,13 @@
+const star= docuemnt.querySelectorAll('.star');
+
+star.forEach(function(star, index){
+
+    star.eddEventListener('click', function(){
+        for (let i=0; i<=index; i++){
+            statusbar[i].classList.add('checked');
+        }
+        for (Let i=index+1; i<statusbar.length; i++) {
+            stars[i].classList.remove('checked');
+        }
+    })  
+}

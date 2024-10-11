@@ -1,0 +1,284 @@
+
+body{
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+} 
+  .head {
+    display:flex ;
+    height: 10rem;
+    background: linear-gradient(#004b35, #05a299, #05b27e);
+  }
+  h2{
+    font-size: 21px;
+    margin-left: 2rem;
+  }
+.logo{
+    display: flex;
+    align-items: center;
+  }
+.logo img{
+    width:30%;
+    height: 90%;
+    margin-right: -7%;
+    margin-top: -1rem;
+}
+.AB {
+    position: absolute;
+    display: flex;
+    margin-top: 1rem;
+    left: 19%;
+    font-size: 22px;
+    top: 16%;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 6px;
+}
+nav a:hover{
+    color: white;
+}
+@media (max-width:600px){
+    header{
+        flex-direction: column;
+    }
+nan{
+    padding: 10px 0px;
+}
+}
+.cajabuscar {
+    float: none;
+    width: 50%;
+    max-width: 300px;
+    margin-bottom: 10px;
+    margin-top: 2.5%;
+    margin-left:18%;
+    margin-right: auto;
+    display: inline-block;
+    text-align: left;
+}
+#buscarform {
+    padding: 0;
+    float: right;
+    clear: both;
+    width: 200%;
+    position: relative;
+}
+#buscarform fieldset { float: left }
+#buscarform .search {
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFF;
+    background: #61996b;
+    position: absolute;
+    right:4px ;
+    left: 96%;
+    top: 9px; 
+    padding: 18px;
+    height: 5px;
+    width: 5px;
+    text-align: center;
+}
+#buscarform fieldset { width: 100% }
+#s {
+    width: 100%;
+    background-color: #fffefe;
+    float: left;
+    padding: 8px 0;
+    text-indent: 10px;
+    color: #555555;
+    border: 1px solid #fff; 
+    box-sizing: border-box;
+    height: 42px;
+}
+.button{
+    padding: 8px 0;
+    float: left;
+    border: solid 3px black;
+    width: 30px;
+    height: 42px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 15px;
+    color: #a4a4a4;
+    transition: all 0.25s linear;
+    background: transparent;
+    z-index: 10;
+    position: absolute;
+    border: 0;
+}.iconos{
+    position: relative;
+    width: 3.5rem;
+    height: 3.5rem;
+    align-items: center;
+    display: flex;
+}
+.Bnoti {
+    position: absolute;
+    display: flex;
+    top: 5%;
+    left: 76%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.pregunta{
+    position: absolute;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.Bpregun {
+    position: absolute;
+    display: flex;
+    top: 5%;
+    left: 80%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.inicio{
+    position: absolute;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.Bini {
+    position: absolute;
+    display: flex;
+    top: 5%;
+    left: 84%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.carritos{
+    position: absolute;
+    width:3.5rem;
+    height: 3.5rem;
+    align-items: center;
+}
+.Bcar {
+    position: absolute;
+    display: flex;
+    top: 5%;
+    left: 88.4%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.casa{
+    position:absolute;
+    width: 4rem;
+    height: 3rem;
+    align-items: center;
+    margin-left: -87%;
+    margin-top: 7.6%;
+}
+.img-search {
+    position: absolute;
+    right:0px;
+    left: 6px;
+    top: 5px;
+    padding: 0px;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+}
+a{
+    color: rgb(11, 11, 11);
+    text-decoration: none;
+}
+.h1H {
+    display: flex;
+    position: absolute;
+    left: 8%;
+    top: 33%;
+    font-size: 2.5rem;
+}
+.prom {
+    display: flex;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 10%;
+}
+.Bprom {
+    background-color: rgb(207, 206, 206);
+    padding: 50px;
+    display: flex;
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    border-radius: 80px;
+    font-size: 30px;
+    cursor: pointer;
+    top: 44%;
+    left: 8%;
+    border: none;
+}
+p {
+    display: flex;
+    position: absolute;
+    top: -7%;
+    left: 10%;
+}
+.p1 {
+    display: flex;
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    color: rgb(141, 139, 139);
+
+}
+.Bactu {
+    background-color: rgb(207, 206, 206);
+    padding: 50px;
+    display: flex;
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    border-radius: 80px;
+    font-size: 30px;
+    cursor: pointer;
+    top: 60%;
+    left: 8%;
+    border: none;
+}
+.actu {
+    display: flex;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 20%;
+}
+.p2 {
+    display: flex;
+    position: absolute;
+    top: 28%;
+    left: 10%;
+    color: rgb(141, 139, 139);
+}
+.sig1 {
+    display: flex;
+    position: absolute;
+    left: 82%;
+    top: 45%;
+    border-radius: 100%;
+    padding: 25px;
+    height: 75px;
+    width: 75px;
+    font-size: 25px;
+    border: none;
+    background-color: white;
+}
+.sig2 {
+    display: flex;
+    position: absolute;
+    left: 82%;
+    top: 62%;
+    border-radius: 100%;
+    padding: 25px;
+    height: 75px;
+    width: 75px;
+    font-size: 25px;
+    border: none;
+    background-color: white;
+}

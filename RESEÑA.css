@@ -1,0 +1,239 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+.nom{
+    font-size: 10px;
+}
+header {
+    display:flex ;
+    height: 10rem;
+    background: linear-gradient(#004b35, #05a299, #05b27e);
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+.logo{
+    display: flex;
+    align-items: center;
+  }
+.logo img{
+    height: 150px;
+    width: 175px;
+    margin-left: -1.5rem;
+}
+.AB {
+    position: absolute;
+    display: flex;
+    top: 16%;
+    left: 26%;
+    color: rgb(247, 241, 241);
+    font-size: 19px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 6px;
+}
+nav a:hover{
+    color: rgb(10, 10, 10);
+}
+@media (max-width:600px){
+    header{
+        flex-direction: column;
+    }
+nan{
+    padding: 10px 0px;
+}
+}
+.cajabuscar {
+    float: none;
+    width: 70%;
+    max-width: 400px;
+    margin-bottom: 10px;
+    margin-top: -1%;
+    margin-left: 15%;
+    margin-right: auto;
+    display: inline-block;
+    text-align: left;
+}
+#buscarform {
+    padding: 0;
+    float: right;
+    clear: both;
+    width: 200%;
+    height: 80%;
+    left: 10rem;
+    right: rem;
+    position: relative;
+}
+#buscarform fieldset { float: left }
+#buscarform .search {
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFF;
+    background: #61996b;
+    position: absolute;
+    right:4px ;
+    left: 97%;
+    top: 7px;
+    padding: 9px;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+}
+#buscarform fieldset { width: 100% }
+#s {
+    width: 100%;
+    background-color: #fff;
+    float: left;
+    padding: 8px 0;
+    text-indent: 10px;
+    color: #555555;
+    border: 1px solid #fff; 
+    box-sizing: border-box;
+    height: 42px;
+}
+.button{
+    padding: 8px 0;
+    float: left;
+    border: solid 3px black;
+    width: 30px;
+    height: 42px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 15px;
+    color: #a4a4a4;
+    transition: all 0.25s linear;
+    background: transparent;
+    z-index: 10;
+    position: absolute;
+    border: 0;
+}.iconos{
+    position: relative;
+    width: 3.5rem;
+    height: 3.5rem;
+    align-items: center;
+    display: flex;
+}
+.Bnoti {
+    position: absolute;
+    display: flex;
+    top: 5%;
+    left: 76%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+.pregunta{
+    position: absolute;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.Bpregun {
+    position: absolute;
+    display: flex;
+    top: 5%;
+    left: 80%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.inicio{
+    position: absolute;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.Bini {
+    position: absolute;
+    display: flex;
+    top: 5%;
+    left: 84%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.carritos{
+    position: absolute;
+    width:3.5rem;
+    height: 3.5rem;
+    align-items: center;
+}
+.Bcar {
+    position: absolute;
+    display: flex;
+    top: 5%;
+    left: 88.4%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.casa{
+    position:absolute;
+    width: 4rem;
+    height: 3rem;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 20%;
+    margin-top: -4%;
+}
+.img-search {
+    position: absolute;
+    right:0px;
+    left: 6px;
+    top: 5px;
+    padding: 0px;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+}
+.conta {
+    background-color: #dddada;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 6%;
+    width: 600px;
+    height: 450px;
+    align-items: center;
+    text-align: center;
+}
+textarea {
+    width: 400px;
+    height: 200px;
+    background-color: #ffffffab;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.imgestre {
+    display: flex;
+    position: relative;
+    align-items: center;
+    left: 8%;
+}
+.Benvi {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rating{
+    display: flex;
+    justify-content: space-between;
+}
+.star{
+    font-size: 32px;
+    color: #bbb;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+.star:hover{
+    color: gold;
+}
+a{
+    text-decoration: none;
+    color:rgb(16, 15, 15);
+}

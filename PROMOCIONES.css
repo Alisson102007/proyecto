@@ -1,0 +1,234 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+}
+header {
+    display:flex ;
+    height: 10rem;
+    background: linear-gradient(#004b35, #05a299, #05b27e);
+  }
+.logo{
+    display: flex;
+    align-items: center;
+  }
+.logo img{
+    width: 12rem;
+    margin-right: 2rem;
+}
+.empresa{
+ margin-left: -1rem;
+ font-size: 21px;
+}
+.AB {
+    position: absolute;
+    display: flex;
+    top: 18%;
+    left: 19%;
+    font-size: 22px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 6px;
+}
+nav a:hover{
+    color: white;
+}
+@media (max-width:600px){
+    header{
+        flex-direction: column;
+    }
+nan{
+    padding: 10px 0px;
+}
+}
+.cajabuscar {
+    float: none;
+    width: 70%;
+    max-width: 400px;
+    margin-bottom: 10px;
+    margin-top: 2.5%;
+    margin-left: 5%;
+    margin-right: auto;
+    display: inline-block;
+    text-align: left;
+}
+#buscarform {
+    padding: 0;
+    float: right;
+    clear: both;
+    width: 150%;
+    height: 80%;
+    left: 10rem;
+    right: rem;
+    position: relative;
+}
+#buscarform fieldset { float: left }
+#buscarform .search {
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFF;
+    background: #61996b;
+    position: absolute;
+    right:4px ;
+    left: 97%;
+    top: 7px;
+    padding: 9px;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+}
+#buscarform fieldset { width: 100% }
+#s {
+    width: 100%;
+    background-color: #fff;
+    float: left;
+    padding: 8px 0;
+    text-indent: 10px;
+    color: #555555;
+    border: 1px solid #fff; 
+    box-sizing: border-box;
+    height: 42px;
+}
+.button{
+    padding: 8px 0;
+    float: left;
+    border: solid 3px black;
+    width: 30px;
+    height: 42px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 15px;
+    color: #a4a4a4;
+    transition: all 0.25s linear;
+    background: transparent;
+    z-index: 10;
+    position: absolute;
+    border: 0;
+}.iconos{
+    position: relative;
+    width: 3.5rem;
+    height: 3.5rem;
+    align-items: center;
+    display: flex;
+}
+.Bnoti {
+    position: absolute;
+    display: flex;
+    top: 5%;
+    left: 76%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.pregunta{
+    position: absolute;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.Bpregun {
+    position: absolute;
+    display: flex;
+    top: 5%;
+    left: 80%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.inicio{
+    position: absolute;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.Bini {
+    position: absolute;
+    display: flex;
+    top: 5%;
+    left: 84%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.carritos{
+    position: absolute;
+    width:3.5rem;
+    height: 3.5rem;
+    align-items: center;
+}
+.Bcar {
+    position: absolute;
+    display: flex;
+    top: 5%;
+    left: 88.4%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.casa{
+    position:absolute;
+    width: 4rem;
+    height: 3rem;
+    align-items: center;
+    margin-left: 13%;
+    margin-right: 20%;
+    margin-top:-2.8%;
+}
+.tabla {
+    border: 3px;
+    color: #555555;
+}
+.img-search {
+    position: absolute;
+    right:0px;
+    left: 6px;
+    top: 5px;
+    padding: 0px;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+
+}
+.h1H {
+    display: flex;
+    position: absolute;
+    left: 8%;
+    top: 24%;
+    font-size: 3rem;
+}
+.containerC {
+    background-color: #e2e1e1;
+    margin-left: 8%;
+    margin-top: 9%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    font-size: 25px ;
+    
+}
+.trC {
+    width: 100%; 
+    border-collapse: collapse;
+}
+.trS {
+    border-collapse: collapse;
+    border-bottom: black solid 2px;
+}
+.imgN {
+    position: relative;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: solid black 2px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.BD {
+    padding: 15px;
+    font-size: 14px;
+    background-color: transparent;
+    cursor: pointer;
+}

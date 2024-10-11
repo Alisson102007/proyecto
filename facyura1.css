@@ -1,0 +1,303 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+header {
+    display:flex ;
+    min-height: 10rem;
+    background: linear-gradient(#004b35, #05a299, #05b27e);
+  }
+.logo{
+    display: flex;
+    align-items: center;
+  }
+.logo img{
+    height: 130px;
+    margin-left: -0.5rem;
+}
+h2{
+    font-size: 21px;
+}
+.AB {
+    position: absolute;
+    display: flex;
+    top: 18.5%;
+    left: 19%;
+    gap: 3px;
+    font-size: 22px;
+    font-weight: 600;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 6px;
+}
+nav a:hover{
+    color: rgb(252, 246, 246);
+}
+@media (max-width:600px){
+    header{
+        flex-direction: column;
+    }
+}
+.cajabuscar {
+    float: none;
+    width: 70%;
+    max-width: 400px;
+    margin-bottom: 10px;
+    margin-top: 2.5%;
+    margin-left: 6%;
+    margin-right: auto;
+    display: inline-block;
+    text-align: left;
+}
+#buscarform {
+    padding: 0;
+    float: right;
+    clear: both;
+    width: 150%;
+    height: 80%;
+    left: 10rem;
+    right: rem;
+    position: relative;
+}
+#buscarform fieldset { float: left }
+#buscarform .search {
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFF;
+    background: #61996b;
+    position: absolute;
+    right:4px ;
+    left: 97%;
+    top: 7px;
+    padding: 9px;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+}
+#buscarform fieldset { width: 100% }
+#s {
+    width: 100%;
+    background-color: #fff;
+    float: left;
+    padding: 8px 0;
+    text-indent: 10px;
+    color: #555555;
+    border: 1px solid #fff; 
+    box-sizing: border-box;
+    height: 42px;
+}
+.button{
+    padding: 8px 0;
+    float: left;
+    border: solid 3px black;
+    width: 30px;
+    height: 42px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 15px;
+    color: #a4a4a4;
+    transition: all 0.25s linear;
+    background: transparent;
+    z-index: 10;
+    position: absolute;
+    border: 0;
+}.iconos{
+    position: relative;
+    width: 3.5rem;
+    height: 3.5rem;
+    align-items: center;
+    display: flex;
+}
+.Bnoti {
+    position: absolute;
+    display: flex;
+    top: 5%;
+    left: 76%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.pregunta{
+    position: absolute;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.Bpregun {
+    position: absolute;
+    display: flex;
+    top: 5%;
+    left: 80%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.inicio{
+    position: absolute;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.Bini {
+    position: absolute;
+    display: flex;
+    top: 5%;
+    left: 84%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.carritos{
+    position: absolute;
+    width:3.5rem;
+    height: 3.5rem;
+    align-items: center;
+}
+.Bcar {
+    position: absolute;
+    display: flex;
+    top: 5%;
+    left: 88.4%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.casa{
+    position:absolute;
+    width: 4rem;
+    height: 3rem;
+    align-items: center;
+    margin-left: 13%;
+    margin-right: 20%;
+    margin-top: -2.8%;
+}
+.tabla {
+    border: 3px;
+    color: #555555;
+}
+.img-search {
+    position: absolute;
+    right:0px;
+    left: 6px;
+    top: 5px;
+    padding: 0px;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    margin-left: 25%;
+    max-width: 50%;
+    max-height: 10%;
+}
+.precio{ 
+    position: 15%;
+    font-weight: normal;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    margin-left: 88%;
+    margin-top: -11%;
+}
+p {
+    display: flex;
+    position: absolute;
+    top: 85%;
+    left: 35%;
+    font-size: 20px;
+}
+.tabla-factura{
+    border: 4px;
+    color: #0a080a;
+    border-collapse: collapse;
+    align-items: center;
+    margin-top: 1%;   
+}
+td{
+   border:3px solid #080808;
+   padding: 40px;
+   background-color:#63586100;
+}
+.ancho {
+    width: 200rem;
+}
+.abajo {
+    position: absolute;
+    margin-top: -1.5rem;
+}
+.abajo2 {
+    position: absolute;
+    margin-top: -1.3rem;
+}
+.arriba {
+    margin-top: -9.5rem;
+}
+.arriba2 {
+    margin-top: -3.5rem;
+}
+.imagen-logo{
+   
+    width: 150px;
+    height: 120px;
+    position: absolute;
+    margin-left: 1%;
+}
+.letra{
+    position: relative;
+}
+.letra-2{
+font-weight: normal;
+}
+.contenido-1{
+    margin-right: 30%;
+    display: flex;
+}
+.contenido-2{
+    margin-right: -80%;
+    display: flex;
+}
+.contenido-personalizado {
+    padding-top: 1rem;
+    display: flex;
+}
+.contenido-3{
+    margin-right: -80%;
+    display: flex;
+}
+.contenido-4{
+    margin-right: 50%;
+    display: flex;
+}
+th{
+    width: 65%;
+}
+.titulo{
+    margin-left: 15%;
+}
+.columna2{
+    width: 65%;
+}
+.impresora{
+    position: absolute;
+    display: flex;
+    width: 90px;
+    height: 90px;
+    left: 74.9%;
+    top: 45%;
+}
+.descarga{
+    position: absolute;
+    display: flex;
+    width: 49px;
+    height: 49px;
+    left: 76%;
+    top: 41%;
+}
+.tiempo{
+    position: absolute;
+    top: 37rem;
+}

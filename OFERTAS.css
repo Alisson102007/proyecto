@@ -1,0 +1,492 @@
+.contenedorr{
+    margin-left:100rem;
+}
+    *{margin: 10px;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        .carrousel{
+        width: 90rem;
+        height: 120%;
+        margin-left: -67rem;
+        margin-top: 11rem;
+        }
+        .conteCarrousel{
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+        }
+        .itemCarrousel{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        animation: slide 10s infinite;
+        }
+        .itemCarrouselTarjeta{
+        width: 100%;
+        height: 100%;
+        }
+        .itemCarrouselArrows{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%; 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px; 
+        }
+        .itemCarrouselArrows > i:hover {
+        cursor: pointer;
+        }
+        .conteCarrouselController{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        }
+        .conteCarrouselController > a{
+        text-decoration: none;
+        font-size: 2em;
+        color: rgb(3, 3, 3);
+        }
+        .itemCarrouselArrows > a > i{
+        color: rgb(32, 243, 5);
+        font-size: 2em;
+        }
+        
+        img{
+          
+            width: 100%;
+            height: 100%;
+        }
+
+.carrito .carrito-item .carrito-item-precio{
+    font-weight: bold;
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.carrito .carrito-item .btn-eliminar{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: #000;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #000;
+    cursor: pointer;
+    display: block;
+    background: transparent;
+    z-index: 20;
+}
+.carrito .carrito-item .btn-eliminar i{
+    pointer-events: none;
+}
+
+.carrito-total{
+    background-color: #f3f3f3;
+    padding: 30px;
+}
+.carrito-total .fila{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.carrito-total .btn-pagar{
+    display: block;
+    width: 100%;
+    border: none;
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+}
+.carrito-total .btn-pagar:hover{
+    scale: 1.05;
+}
+
+/* SECCION RESPONSIVE */
+@media screen and (max-width: 850px) {
+    .contenedor {
+      display: block;
+    }
+    .contenedor-items{
+        width: 100% !important;
+    }
+    .carrito{
+        width: 100%;
+    }
+  }
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: -4%;
+}
+  .head {
+    display:flex ;
+    height: 12rem;
+    background: linear-gradient(#004b35, #05a299, #05b27e);
+  }
+
+.logo{
+    display: flex;
+    align-items: center;
+   
+  }
+
+.logo img{
+
+height: 75%;
+margin-left: 9%;
+margin-top: 2rem;
+}
+h2{
+    font-size: 21px;
+    margin-left: -0.5rem;
+ 
+}
+
+.AB {
+    position: absolute;
+    display: flex;
+    left: 15%;
+    font-size: 22px;
+    top: 14%;
+    letter-spacing:-1.5px;
+    
+}
+
+nav a{
+    font-weight: 600;
+    
+}
+
+nav a:hover{
+    color: rgb(241, 238, 238);
+}
+
+@media (max-width:600px){
+    header{
+        flex-direction: column;
+    }
+nan{
+    padding: 10px 0px;
+}
+}
+
+.cajabuscar {
+    float: none;
+    margin-top: 2%;
+    margin-left: 46%;
+    margin-right: auto;
+    display: inline-block;
+    text-align: left;
+    
+}
+
+#buscarform {
+    padding: 0;
+    float: right;
+    clear: both;
+    width: 510%;
+    position: relative;
+}
+#buscarform fieldset { float: left }
+
+#buscarform .search {
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFF;
+    background: #61996b;
+    position: absolute;
+    right:4px ;
+    left: 96%;
+    top: 12px;
+    
+    padding: 21px;
+    height: 29px;
+    width: 29px;
+    text-align: center;
+}
+#buscarform fieldset { width: 100% }
+
+#s {
+    width: 100%;
+    background-color: #fffefe;
+    float: left;
+    padding: 8px 0;
+    text-indent: 10px;
+    color: #555555;
+    border: 1px solid #fff; 
+    box-sizing: border-box;
+    height: 42px;
+}
+.button{
+
+    right: 0;
+    top: 0;
+    padding: 8px 0;
+    float: left;
+    border: solid 3px black;
+    width: 30px;
+    height: 42px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 15px;
+    color: #a4a4a4;
+    transition: all 0.25s linear;
+    background: transparent;
+    z-index: 10;
+    position: absolute;
+    border: 0;
+    vertical-align: top;
+    font-family: 'Times New Roman', Times, serif;
+}.iconos{
+    position: relative;
+    width: 3.5rem;
+    height: 3.5rem;
+    align-items: center;
+    display: flex;
+}
+
+.Bnoti {
+    position: absolute;
+    display: flex;
+    top: -1%;
+    left: 76%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+.pregunta{
+    position: absolute;
+    width: 3.5rem;
+    height: 3.5rem;
+
+}
+
+.Bpregun {
+    position: absolute;
+    display: flex;
+    top: -1%;
+    left: 80%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+.inicio{
+    position: absolute;
+    width: 3.5rem;
+    height: 3.5rem;
+
+}
+
+.Bini {
+    position: absolute;
+    display: flex;
+    top: -1%;
+    left: 84%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+.carritos{
+    position: absolute;
+    width:3.5rem;
+    height: 3.5rem;
+    align-items: center;
+
+}
+
+.Bcar {
+    position: absolute;
+    display: flex;
+    top: -1%;
+    left: 88.4%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+.casa{
+    position:absolute;
+    width: 4rem;
+    height: 3rem;
+    align-items: center;
+    margin-left: -59%;
+    margin-right: 20%;
+    margin-top: 8.5%;
+}
+.tabla {
+    border: 3px;
+    color: #555555;
+}
+
+.img-search {
+    position: absolute;
+    right:0px;
+    left: 6px;
+    top: 5px;
+    
+    padding: 0px;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+
+}
+
+a{
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+}
+    .comprass{
+        width: 84%;
+        height: 50%;
+        background-color: #555555;
+        font-size: 25px;
+        margin-left:10%;
+        border-radius: 15px;
+        }
+        .contenido{
+            max-width: 1350px;
+            height: 1400px;
+            width: 400%;
+            margin: 40px auto;
+            display: flex;
+            margin-top: 2rem;
+            margin-left: 5rem;
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+         
+        }
+        .mostrador{
+            width: 100%;
+            transition: .7s ease;   
+        }
+        .mostrador .fila{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+        .mostrador .fila .item{
+            max-width: 180px;
+            padding: 30px;
+            height: 305px;
+            /*border: 2px solid red;*/
+            text-align: center;
+            margin: 0 10px;
+            cursor: pointer;
+            border-radius: 1px;
+            transition: .3s;
+            -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,1.15);
+            -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,1.15);
+            box-shadow: 0px 0px 5px 5px rgba(0,0,0,1.15);
+        }
+        .mostrador .fila .item:hover{
+            background-color: #c9c6c6;
+        }
+        .mostrador .fila .item img{
+            width: 100%;
+            margin: 30px 0;
+        }
+        .mostrador .fila .item .descripcion{
+            color: #1a1818;
+            font-weight: bold;
+        }
+        .mostrador .fila .item .precio{
+            color: #2b2929;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .seleccion{
+            transition: .3s ease;
+            opacity: 0;
+            width: 100rem;
+            height: 38rem;
+            border: 1px solid #3b3838;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            overflow: hidden;
+            margin-left:3rem;
+            margin-top: -89rem;
+        }
+        .cerrar{
+            position: absolute;
+            right: 0;
+            top: 20px;
+            right: 20px;
+            cursor: pointer;
+        }
+        
+        .info{
+            padding: 20px;
+        }
+        .info img{
+            display: block;
+            margin: 30px auto;
+            width: 30%;
+        }
+        .info h2{
+            color: #707070;
+            margin-bottom: 10px;
+            margin-top: -10rem;
+        }
+        .info p{
+            font-size: 14px;
+            color: #0c0b0b;
+            margin-bottom: 10px;
+        }
+        .info .precio{
+            font-size: 30px;
+            font-weight: bold;
+            color: #252323;
+            margin-bottom: 10px;
+            display: block;
+        }
+        .info .fila{
+            display: flex;
+            align-items: flex-end;
+        }
+        .info .fila label{
+            display: block;
+            margin-bottom: 10px;
+        }
+        .info .fila select{
+            width: 100px;
+            font-size: 18px;
+            padding: 6px;
+            margin-right: 30px;
+        }
+        .info .fila button{
+            height: 40px;
+            border: none;
+            padding: 0 10px;
+            color: #f5f1f1;
+            background-color: #225a0c;
+            cursor: pointer;
+        }

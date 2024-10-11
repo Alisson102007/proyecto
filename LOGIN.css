@@ -1,0 +1,199 @@
+body {
+    background: linear-gradient(#004b35, #05a299, #05b27e);
+    height: 38rem;
+    margin:auto;
+    padding:auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+#contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    width: 90%;
+    height: 90%;
+    background-position: center;
+    background-size: cover;
+    margin-left: 15rem;
+}
+  hr.hidden {
+    visibility: hidden;
+    height: 0;
+    margin: 0;
+  }
+  .scrollNavigation {
+    position: fixed;
+    left: 30px;
+    background: #ffffff25;
+    padding: 20px;
+    color: black;
+    position: absolute; top: 0;right: 100%;
+  }
+  .h3{
+    font-size: 30px;
+    color: black;
+  }
+i{
+    color: #080808;
+    text-decoration: none;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    text-decoration: black;
+    color: #030303;
+}
+p{
+    font-size: 120%;
+    color:#030303;
+    text-align: center;
+}
+.registrar{
+    color: #030303;
+    margin-top: -6%;
+    font-size: 25px;
+}
+.registro{
+   margin-left: -0.1rem;
+   width: 23rem;
+}
+.redes{
+    display: flex;
+    color: black;
+     float: left;
+  margin-left: 2%;
+  margin-top: -4%;
+}
+.imagen{
+    max-width: 40px;
+    min-width: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    margin-top: -1.5rem;
+}
+.google{
+    margin-left: 4rem;
+    margin-top: -2rem;
+}
+.facebook{
+    margin-left: 4rem;
+    margin-top: -2rem;
+}
+#login button {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 130%;
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: #807d7c; 
+    margin-top: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#login button:hover {
+    background-color: #5f6669;
+    color: black;
+}
+#login {
+    position: absolute;
+    display: block;
+    left: 44rem;
+    top: 6rem;
+    width: 230%;
+    max-width: 450px;
+    min-width: 450px;
+    padding: 30px 30px 50px 30px;
+    background-color: #ffffff7a;
+    align-items: center;
+    align-self: center;
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+}
+#login label {
+    display: block;
+    font-family: 'Overpass', sans-serif;
+    font-size: 120%;
+    color:#111111;
+    margin-top: 15px;
+}
+#login input {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 120%;
+    display: block;
+    width: 110%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 10px;
+    color: black;
+    margin-left: -1rem;
+}
+*{margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    }
+.carrousel{
+    position: absolute;
+    display: block;
+    width: 20%;
+    height: 30%;
+    left: 18rem;
+    top: 14rem;
+}
+.conteCarrousel{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.itemCarrousel{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.itemCarrouselTarjeta{
+    width: 100%;
+    height: 100%;
+}
+.itemCarrouselArrows{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; 
+}
+.itemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+.conteCarrouselController{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+} 
+.conteCarrouselController > a{
+    text-decoration: none;
+    font-size: 3em;
+    color: rgba(10, 10, 10, 0.875);
+} 
+.itemCarrouselArrows > a > i{
+    color: rgb(3, 3, 3);
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.iniciar{
+    color: #030303;
+    margin-top:1%;
+    font-size: 25px;
+    text-decoration-color: #030303;
+}
+.olvidar{
+    margin-top: -7%;
+}

@@ -1,0 +1,129 @@
+<!-- Define que el documento esta bajo el estandar de HTML 5 -->
+<!doctype html>
+
+<!-- Representa la raíz de un documento HTML o XHTML. Todos los demás elementos deben ser descendientes de este elemento. -->
+<html lang="es">
+    
+    <head>
+        
+        <meta charset="utf-8">
+        
+        <title> login </title>    
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Videojuegos & Desarrollo">
+        <meta name="description" content="Ejemplo de formulario de acceso basado en HTML5 y CSS">
+        <meta name="keywords" content="login,formulariode acceso html">
+        
+        <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet"> 
+        
+        <!-- Link hacia el archivo de estilos css -->
+        <link rel="stylesheet" href="LOGIN.css">
+        
+        <style type="text/css">
+            
+        </style>
+        
+        <script type="text/javascript">
+        
+        </script>
+        
+    </head>
+    
+    <body>
+
+        <div id="contenedor">
+
+            <div class="carrousel">
+                <div class="conteCarrousel">
+                    <div class="itemCarrousel" id="itemCarrousel-1">
+                        <div class="itemCarrouselTarjeta">
+                            <img src="/img/carrusel-1.png">
+                        </div>
+                        <div class="itemCarrouselArrows">
+                            <a href="#itemCarrousel-3">
+                                <i class="fas fa-chevron-left"></i>
+                            </a>
+                            <a href="#itemCarrousel-2">
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="itemCarrousel" id="itemCarrousel-2">
+                        <div class="itemCarrouselTarjeta">
+                            <img src="/img/carrusel-2.png">
+                        </div>
+                        <div class="itemCarrouselArrows">
+                            <a href="#itemCarrousel-1">
+                                <i class="fas fa-chevron-left"></i>
+                            </a>
+                            <a href="#itemCarrousel-3">
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="itemCarrousel" id="itemCarrousel-3">
+                        <div class="itemCarrouselTarjeta">
+                            <img src="/img/carrusel-3-removebg-preview.png">
+                        </div>
+                        <div class="itemCarrouselArrows">
+                            <a href="#itemCarrousel-2">
+                                <i class="fas fa-chevron-left"></i>
+                            </a>
+                            <a href="#itemCarrousel-1">
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="conteCarrouselController">
+                    <a href="#itemCarrousel-1">•</a>
+                    <a href="#itemCarrousel-2">•</a>
+                    <a href="#itemCarrousel-3">•</a>
+                </div>
+           
+                <p><strong>PLATAFORMA DE COMPRAS
+                <br>
+                EN LINEA </strong></p>
+            </div>
+        </div>
+    
+        <div id="contenedorcenter">
+
+            <div id="contenedorcentrado">
+               
+            <div class="container">
+                
+                <div id="login">
+                    <form id="loginform">
+                        <p colspan="2"> <p class="h3"><b>Iniciar Sesion</b> </p>
+                        <label for="Nombre o Celular"></label>
+                        <input id="Nombre o Celular " type="text" name="Nombre o Celular" placeholder="Nombre o Celular"  required>
+                        <label for="Correo Electronico"></label>
+                        <input id="Correo Electronico" type="text" name="Correo Electronico" placeholder="Correo Electronico" required>
+                        
+                        <label for="password"></label>
+                        <input id="password" type="password" placeholder="Contraseña" name="password" required>
+                        <button type="submit" title="iniciar sesion" name="iniciar sesion"><p class="iniciar"><a href="/bienvenida/index.html">Iniciar Sesion</a></p></button>
+                        <lebel for="¿ olvidaste tu contraseña "> <a href="/recup-contra/index.html" method="post"><p class="olvidar"> ¿ Olvidastes Tu Contraseña ?</p></lebel>
+                        
+                        <BR>
+
+                        <div class="redes">
+                            <a href="https://es-la.facebook.com/login/device-based/regular/login/" method="post"></form  class="linea"><div class="imagen"><img src="/img/Facebook.png"></div> <p class="facebook"> Facebook</p> 
+                            <a href="https://accounts.google.com/AccountChooser/signinchooser?service=CPanel&continue=https%3A%2F%2Fadmin.google.com%2Fmed.unne.edu.ar%2FDashboard&hl=es&ddm=0&flowName=GlifWebSignIn&flowEntry=AccountChooser"
+                            method="post"></from  class="linea"><div class="imagen"><img src="/img/Google.png"> </div> <p class="google">Google</p> 
+                        </div>  
+                        <br>
+                        <br>
+                       <div class="registro"> <button  type="submit" class="registro"><p class="registrar"><a href="/registrarse/index.html"> Registrarse </a></p> </button></div>
+                    </form>
+                    
+                
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>   
